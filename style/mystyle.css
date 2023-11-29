@@ -1,0 +1,36 @@
+:root {
+    --primary:#FFFFFF;
+    --primary-focus:#BD2000;
+}
+
+
+/*font*/
+.font-poppins{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.font-archivo{
+    font-family: 'Archivo', sans-serif !important;
+}
+
+/*component*/
+.btn-primary {
+    background-color: var(blue)!important;
+    border-color: var(--primary)!important;
+}
+
+.btn-primary:hover{
+ background-color:var(--primary-focus)!important;
+}
+
+/*navbar*/
+.active{
+    color: var(--primary) !important;
+}
+
+.nav-link{
+    color: var(--primary) !important;
+}
+.navbar-nav{
+        background-color: yellow;
+}
